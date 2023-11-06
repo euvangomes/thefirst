@@ -131,6 +131,16 @@ a {
     border-bottom: 3px solid #f4a261;
     border-top: 3px solid #f4a261;
 }
+.sec2{
+  background-color: #fff;
+  width: 100%;
+  height: 500px;
+  margin-top: 10PX;
+  border-radius: 15px;
+  border-bottom: 3px solid #f4a261;
+  border-top: ;
+
+}
 
 /*PICS NAV*/
 .sec0 {
@@ -139,6 +149,12 @@ a {
   width: 100%;
   background-color: #fff;
   border-radius: 5px;
+}
+.ab{
+  display: inline-block;
+  justify-content: space-around;
+  flex-direction: row;
+
 }
 
 /*FOOTER*/
@@ -308,7 +324,7 @@ footer{
     margin-top: 5px;
   }
   .link-boxes .input-box input::placeholder{
-    color: #000;
+    color: #b3b3b3;
     font-size: 16px;
   }
   .link-boxes .input-box input[type="button"]{
@@ -410,3 +426,43 @@ footer{
   /***********/
 
   /*sidebar inside main*/
+
+
+
+
+.wrapper{
+  width: calc(100% + 55px);
+  background: #fff;
+  border-radius: 5px;
+  padding: 8px 15px 5px;
+  box-shadow: 8px 8px 10px rgba(0,0,0,0.06);
+}
+    
+.wrapper h4{
+  color: #000;
+  font-size: 15px;
+  text-align: start;
+}
+.wrapper textarea{
+  width: 100%;
+  resize: none;
+  height: 59px;
+  outline: none;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 8px;
+  border-radius: 5px;
+  max-height: 330px;
+  caret-color: #000;
+  border: 1px solid #bfbfbf;
+}
+textarea::placeholder{
+  color: #b3b3b3;
+}
+textarea:is(:focus, :valid){
+  padding: 14px;
+  border: 2px solid #4671EA;
+}
+textarea::-webkit-scrollbar{
+  width: 0px;
+}
