@@ -8,7 +8,6 @@
 }
 body {
   background-image: url(wallpaper.jpg);
-  backdrop-filter: blur(2px);
   background-position: center;
   background-size: cover; /* Ajuste conforme necessário */
   background-repeat: no-repeat;
