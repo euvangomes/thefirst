@@ -7,12 +7,7 @@
   padding: 0;
 }
 body {
-  background-image: url(wallpaper.jpg);
-  backdrop-filter: blur(2px);
-  background-position: center;
-  background-size: cover; /* Ajuste conforme necessário */
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Esta propriedade fixa o fundo */
+  background: #264654;
 }
 /*BODY*/
 
